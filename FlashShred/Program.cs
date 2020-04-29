@@ -16,7 +16,7 @@ namespace FlashShred
         {
 
 
-           Console.WriteLine( System.Reflection.Assembly.GetEntryAssembly().Location);
+            Console.WriteLine( System.Reflection.Assembly.GetEntryAssembly().Location);
 
 
             Application.EnableVisualStyles();

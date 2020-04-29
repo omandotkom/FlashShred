@@ -14,18 +14,27 @@ namespace FlashShred
     public partial class Form1 : Form
     {
         private OpenFileDialog openFileDialog1 = new OpenFileDialog();
+        private Algorithm algorithm = new Algorithm();
+       
         public Form1()
         {
             InitializeComponent();
             InitializeOpenFileDialog();
-            
+            algorithm.onPerformStepEvent += Algorithm_onPerformStepEvent;
+        }
+
+        private void Algorithm_onPerformStepEvent(string message)
+        {
+            progressBar1.Invoke(new Action(() => progressBar1.PerformStep()));
+            label1.Invoke(new Action(() => label1.Text = message));
+            Console.WriteLine("Depan " + message);
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
-
+       
         private void button1_Click(object sender, EventArgs e)
         {
             DialogResult dr = this.openFileDialog1.ShowDialog();
@@ -36,8 +45,11 @@ namespace FlashShred
                 foreach (String filePath in openFileDialog1.FileNames) {
                     listBox1.Items.Add(filePath);
                 }
-                Algorithm algorithm = new Algorithm(openFileDialog1.FileNames);
-                
+                if (listBox1.Items.Count > 0)
+                {
+                    algorithm.FileNames = listBox1.Items.OfType<string>().ToArray();
+                    algorithm.CheckValidity();
+                }
             }
         }
         private void InitializeOpenFileDialog()
@@ -50,6 +62,16 @@ namespace FlashShred
             // Allow the user to select multiple images.
             this.openFileDialog1.Multiselect = true;
             this.openFileDialog1.Title = "My Image Browser";
+        }
+
+        private async void button2_Click(object sender, EventArgs e)
+        {
+            
+            
+            progressBar1.Step = 1;
+            progressBar1.Maximum = (algorithm.FileNames.Length * 2) + 7;
+          await algorithm.shred();
+           
         }
 
     }
