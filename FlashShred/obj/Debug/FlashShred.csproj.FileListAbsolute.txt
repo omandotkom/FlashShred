@@ -1,9 +1,10 @@
 C:\Users\Khalid Abdurrahman\source\repos\FlashShred\FlashShred\bin\Debug\FlashShred.exe.config
 C:\Users\Khalid Abdurrahman\source\repos\FlashShred\FlashShred\bin\Debug\FlashShred.exe
 C:\Users\Khalid Abdurrahman\source\repos\FlashShred\FlashShred\bin\Debug\FlashShred.pdb
-C:\Users\Khalid Abdurrahman\source\repos\FlashShred\FlashShred\obj\Debug\FlashShred.csprojAssemblyReference.cache
 C:\Users\Khalid Abdurrahman\source\repos\FlashShred\FlashShred\obj\Debug\FlashShred.Form1.resources
 C:\Users\Khalid Abdurrahman\source\repos\FlashShred\FlashShred\obj\Debug\FlashShred.Properties.Resources.resources
 C:\Users\Khalid Abdurrahman\source\repos\FlashShred\FlashShred\obj\Debug\FlashShred.csproj.GenerateResource.cache
 C:\Users\Khalid Abdurrahman\source\repos\FlashShred\FlashShred\obj\Debug\FlashShred.exe
 C:\Users\Khalid Abdurrahman\source\repos\FlashShred\FlashShred\obj\Debug\FlashShred.pdb
+C:\Users\Khalid Abdurrahman\source\repos\FlashShred\FlashShred\obj\Debug\FlashShred.SectorCleaner.resources
+C:\Users\Khalid Abdurrahman\source\repos\FlashShred\FlashShred\obj\Debug\FlashShred.csprojAssemblyReference.cache

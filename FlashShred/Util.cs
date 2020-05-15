@@ -8,7 +8,7 @@ namespace FlashShred
 {
     class Util
     {
-        private static List<string> log = new List<string>();
+        private static readonly List<string> log = new List<string>();
         public static void write(string message) {
             //Console.WriteLine(time + " - " + message);
             log.Add(DateTime.Now.ToString("h:mm:ss") + " - " + message);

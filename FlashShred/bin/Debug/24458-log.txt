@@ -1,0 +1,27 @@
+2.44.48 - Begin checking validity...
+2.44.48 - Done, everything is valid.
+2.44.49 - creating D:\temp_file_0
+2.44.49 - Sync Phase 1 ...
+2.44.50 - Processing D:\randomfile\50MB
+2.44.50 - Renaming D:\randomfile\50MB -> D:\randomfile\s40eeefz.i50
+2.44.51 - Processing D:\randomfile\70MB
+2.44.51 - Renaming D:\randomfile\70MB -> D:\randomfile\mmto3vca.4kg
+2.44.51 - Processing D:\randomfile\90
+2.44.51 - Renaming D:\randomfile\90 -> D:\randomfile\rytstytv.d4p
+2.44.52 - D:\randomfile\50MB verification result : True
+2.44.52 - Done, overwrittten D:\randomfile\50MB, current total1
+2.44.53 - D:\randomfile\70MB verification result : True
+2.44.53 - Done, overwrittten D:\randomfile\70MB, current total2
+2.44.53 - D:\randomfile\90 verification result : True
+2.44.53 - Done, overwrittten D:\randomfile\90, current total3
+2.44.53 - Begin removing file...
+2.44.53 - Removing D:\randomfile\s40eeefz.i50
+2.44.53 - Removing D:\randomfile\mmto3vca.4kg
+2.44.53 - Removing D:\randomfile\rytstytv.d4p
+2.44.53 - creating D:\junk_file_0
+2.44.54 - Sync Phase 2 ...
+2.44.54 - Starting to remove files, current free space is 0
+2.44.54 - Begin remove shrink file...
+2.44.54 - removing junkfile D:\temp_file_0
+2.44.58 - removing junkfile D:\junk_file_0
+2.44.58 - Elapsed time is : 9308 ms

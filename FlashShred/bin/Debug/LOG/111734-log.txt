@@ -1,0 +1,17 @@
+11.17.15 - Begin checking validity...
+11.17.15 - Done, everything is valid.
+11.17.29 - creating F:\temp_file_0
+11.17.29 - Sync Phase 1 ...
+11.17.29 - Processing F:\50MB
+11.17.33 - Renaming F:\50MB -> F:\icqkhvk0.qgi
+11.17.34 - F:\50MB verification result : True
+11.17.34 - Done, overwrittten F:\50MB, current total1
+11.17.34 - Begin removing file...
+11.17.34 - Removing F:\icqkhvk0.qgi
+11.17.34 - creating F:\junk_file_0
+11.17.34 - Sync Phase 2 ...
+11.17.34 - Starting to remove files, current free space is 0
+11.17.34 - Begin remove shrink file...
+11.17.34 - removing junkfile F:\temp_file_0
+11.17.34 - removing junkfile F:\junk_file_0
+11.17.34 - Elapsed time is : 5136 ms

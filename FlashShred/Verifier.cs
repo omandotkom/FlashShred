@@ -47,6 +47,24 @@ namespace FlashShred
             }
             return sBuilder.ToString();
         }
+        private static string GetChecksum(string file)
+        {
+            using (FileStream stream = File.OpenRead(file))
+            {
+                var sha = new SHA256Managed();
+                byte[] checksum = sha.ComputeHash(stream);
+                return BitConverter.ToString(checksum).Replace("-", String.Empty);
+            }
+        }
+        public bool VerifyHash2(string OriginalFile, string NewFile) {
+            StringComparer comparer = StringComparer.OrdinalIgnoreCase;
+            if (comparer.Compare(GetChecksum(OriginalFile), GetChecksum(NewFile)) != 0)
+            {
+                return true;
+            }
+            return false;
+
+        }
         public bool VerifyHash()
         {
             SHA256 sha256 = SHA256.Create();

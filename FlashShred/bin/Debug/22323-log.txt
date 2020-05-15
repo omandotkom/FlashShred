@@ -1,0 +1,24 @@
+2.23.16 - Begin checking validity...
+2.23.16 - Done, everything is valid.
+2.23.19 - creating D:\temp_file_0
+2.23.19 - Sync Phase 1 ...
+2.23.19 - Processing D:\randomfile\50MB
+2.23.19 - Processing D:\randomfile\90
+2.23.19 - Processing D:\randomfile\70MB
+2.23.19 - Renaming D:\randomfile\50MB -> D:\randomfile\beny2xxw.2eu
+2.23.19 - Done, overwrittten D:\randomfile\50MB, current total1
+2.23.19 - Renaming D:\randomfile\70MB -> D:\randomfile\1gugj3hp.esu
+2.23.19 - Done, overwrittten D:\randomfile\70MB, current total2
+2.23.19 - Renaming D:\randomfile\90 -> D:\randomfile\i4zrn1at.3pg
+2.23.19 - Done, overwrittten D:\randomfile\90, current total3
+2.23.19 - Begin removing file...
+2.23.19 - Removing D:\randomfile\beny2xxw.2eu
+2.23.19 - Removing D:\randomfile\1gugj3hp.esu
+2.23.21 - Removing D:\randomfile\i4zrn1at.3pg
+2.23.21 - creating D:\junk_file_0
+2.23.22 - Sync Phase 2 ...
+2.23.22 - Starting to remove files, current free space is 0
+2.23.22 - Begin remove shrink file...
+2.23.22 - removing junkfile D:\temp_file_0
+2.23.23 - removing junkfile D:\junk_file_0
+2.23.23 - Elapsed time is : 3981 ms

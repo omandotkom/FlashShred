@@ -1,0 +1,27 @@
+2.12.38 - Begin checking validity...
+2.12.38 - Done, everything is valid.
+2.12.40 - creating D:\temp_file_0
+2.12.43 - Sync Phase 1 ...
+2.12.44 - Processing D:\randomfile\50MB
+2.12.44 - Processing D:\randomfile\90
+2.12.45 - Renaming D:\randomfile\50MB -> D:\randomfile\newkqire.zh5
+2.12.45 - Processing D:\randomfile\70MB
+2.12.45 - Renaming D:\randomfile\90 -> D:\randomfile\z4t0ri5i.u0q
+2.12.45 - Renaming D:\randomfile\70MB -> D:\randomfile\h2hb2moy.cn5
+2.12.47 - D:\randomfile\50MB verification result : True
+2.12.47 - Done, overwrittten D:\randomfile\50MB, current total1
+2.12.47 - D:\randomfile\90 verification result : True
+2.12.47 - Done, overwrittten D:\randomfile\90, current total2
+2.12.47 - D:\randomfile\70MB verification result : True
+2.12.47 - Done, overwrittten D:\randomfile\70MB, current total3
+2.12.47 - Begin removing file...
+2.12.47 - Removing D:\randomfile\newkqire.zh5
+2.12.47 - Removing D:\randomfile\z4t0ri5i.u0q
+2.12.48 - Removing D:\randomfile\h2hb2moy.cn5
+2.12.48 - creating D:\junk_file_0
+2.12.48 - Sync Phase 2 ...
+2.12.48 - Starting to remove files, current free space is 0
+2.12.48 - Begin remove shrink file...
+2.12.48 - removing junkfile D:\temp_file_0
+2.12.49 - removing junkfile D:\junk_file_0
+2.12.49 - Elapsed time is : 9205 ms

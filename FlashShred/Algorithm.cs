@@ -25,14 +25,14 @@ namespace FlashShred
         private string startInfoArg;
         private int total = 0;
         private const bool IS_SHRINK = true;
-        private Stopwatch watch = new System.Diagnostics.Stopwatch();
+        private readonly Stopwatch watch = new System.Diagnostics.Stopwatch();
         private static int totalfiles;
         public static string getCurrentDirectory() {
             return new FileInfo(System.Reflection.Assembly.GetEntryAssembly().Location).DirectoryName;
         }
         public void Algorithm_onOverwrittenEventq(string message)
         {
-            total = total + 1;
+            total += + 1;
             UInt16 tempIter = 0;
             Util.write("Done, overwrittten " + message + ", current total" + total);
             if (total == fileNames.Length)

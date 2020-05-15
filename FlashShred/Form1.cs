@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -15,7 +16,7 @@ namespace FlashShred
     {
         private OpenFileDialog openFileDialog1 = new OpenFileDialog();
         private Algorithm algorithm = new Algorithm();
-       
+        private SectorCleaner sector = new SectorCleaner();
         public Form1()
         {
             InitializeComponent();
@@ -74,5 +75,64 @@ namespace FlashShred
            
         }
 
+        private void sectorCleanerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+            sector.Selected += Sector_Selected;
+            sector.ShowDialog();
+        }
+        private SectorCleanerAlgorithm sectorCleanerAlgorithm;
+        private void Sector_Selected(string letter)
+        {
+            sectorCleanerAlgorithm = new SectorCleanerAlgorithm();
+            sectorCleanerAlgorithm.SetDriveLetter(letter);
+            sectorCleanerAlgorithm.OnCleanerStarted += SectorCleanerAlgorithm_OnCleanerStarted;
+            sectorCleanerAlgorithm.OnCleanerProgress += SectorCleanerAlgorithm_OnCleanerProgress;
+            sectorCleanerAlgorithm.OnCleanerFinished += SectorCleanerAlgorithm_OnCleanerFinished;
+            sectorCleanerAlgorithm.OnCleanerCleaning += SectorCleanerAlgorithm_OnCleanerCleaning;
+            if (sector != null) sector.Close();
+            Console.WriteLine("Selected Drive is " + letter);
+            Console.WriteLine("Steps :" + sectorCleanerAlgorithm.Steps());
+            
+            progressBar1.Step = 1;
+            progressBar1.Maximum = (int)sectorCleanerAlgorithm.Steps() + 2;
+            progressBar1.Value = 0;
+            Console.WriteLine("progressbar maximum : " + progressBar1.Maximum);
+
+            Thread thr = new Thread(new ThreadStart(sectorCleanerAlgorithm.clean));
+            thr.Start();
+        }
+       
+        private void SectorCleanerAlgorithm_OnCleanerCleaning(string letter)
+        {
+            Console.WriteLine(letter);
+            progressBar1.Invoke(new Action(() => progressBar1.PerformStep()));
+            label1.Invoke(new Action(() => label1.Text = letter));
+
+        }
+
+        private void SectorCleanerAlgorithm_OnCleanerFinished(string letter)
+        {
+            Console.WriteLine(letter);
+            progressBar1.Invoke(new Action(() => progressBar1.PerformStep()));
+            label1.Invoke(new Action(() => label1.Text = letter));
+
+        }
+
+        private void SectorCleanerAlgorithm_OnCleanerProgress(string letter)
+        {
+            Console.WriteLine(letter);
+            progressBar1.Invoke(new Action(() => progressBar1.PerformStep()));
+            label1.Invoke(new Action(() => label1.Text = letter));
+
+        }
+
+        private void SectorCleanerAlgorithm_OnCleanerStarted(string letter)
+        {
+            Console.WriteLine(letter);
+            progressBar1.Invoke(new Action(() => progressBar1.PerformStep()));
+            label1.Invoke(new Action(() => label1.Text = letter));
+
+        }
     }
 }

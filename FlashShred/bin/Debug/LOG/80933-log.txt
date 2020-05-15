@@ -1,0 +1,17 @@
+8.09.13 - Begin checking validity...
+8.09.13 - Done, everything is valid.
+8.09.24 - creating F:\temp_file_0
+8.09.25 - Sync Phase 1 ...
+8.09.26 - Processing F:\50MB
+8.09.31 - Renaming F:\50MB -> F:\omqw55bk.mue
+8.09.33 - F:\50MB verification result : True
+8.09.33 - Done, overwrittten F:\50MB, current total1
+8.09.33 - Begin removing file...
+8.09.33 - Removing F:\omqw55bk.mue
+8.09.33 - creating F:\junk_file_0
+8.09.33 - Sync Phase 2 ...
+8.09.33 - Starting to remove files, current free space is 0
+8.09.33 - Begin remove shrink file...
+8.09.33 - removing junkfile F:\temp_file_0
+8.09.33 - removing junkfile F:\junk_file_0
+8.09.33 - Elapsed time is : 8688 ms

@@ -1,0 +1,67 @@
+4.42.18 - Begin checking validity...
+4.42.18 - Done, everything is valid.
+4.44.15 - creating F:\temp_file_0
+4.44.15 - Sync Phase 1 ...
+4.44.15 - Processing F:\contohfile.txt
+4.44.16 - Processing F:\gambar7.jpg
+4.44.16 - Renaming F:\contohfile.txt -> F:\kegkmlcd.y3w
+4.44.16 - Processing F:\gambar6.jpg
+4.44.16 - Processing F:\gambar3.jpg
+4.44.16 - Processing F:\gambar4.jpg
+4.44.16 - Processing F:\gambar5.jpg
+4.44.16 - Processing F:\gambar2.jpg
+4.44.16 - Processing F:\gambar1.jpg
+4.44.16 - F:\contohfile.txt verification result : True
+4.44.16 - Done, overwrittten F:\contohfile.txt, current total1
+4.44.16 - Processing F:\gambar8.jpg
+4.44.17 - Processing F:\gambar9.jpg
+4.44.18 - Processing F:\gambar10.jpg
+4.44.20 - Renaming F:\gambar6.jpg -> F:\yfxcq0wt.duj
+4.44.21 - Renaming F:\gambar10.jpg -> F:\5bkv4zwv.fit
+4.44.21 - Renaming F:\gambar3.jpg -> F:\yy1p1c3q.ltm
+4.44.21 - Renaming F:\gambar4.jpg -> F:\rocyjjbm.jl0
+4.44.21 - Renaming F:\gambar8.jpg -> F:\jvbqpi21.tx0
+4.44.21 - Renaming F:\gambar5.jpg -> F:\twjutzaq.wxu
+4.44.21 - Renaming F:\gambar2.jpg -> F:\ywpoaanm.u13
+4.44.21 - Renaming F:\gambar1.jpg -> F:\zapppaeo.azd
+4.44.21 - Renaming F:\gambar9.jpg -> F:\nl3vqmjd.125
+4.44.21 - Renaming F:\gambar7.jpg -> F:\vgr5rfzc.5ks
+4.44.21 - F:\gambar9.jpg verification result : True
+4.44.21 - Done, overwrittten F:\gambar9.jpg, current total2
+4.44.21 - F:\gambar4.jpg verification result : True
+4.44.21 - Done, overwrittten F:\gambar4.jpg, current total3
+4.44.21 - F:\gambar1.jpg verification result : True
+4.44.21 - Done, overwrittten F:\gambar1.jpg, current total4
+4.44.21 - F:\gambar2.jpg verification result : True
+4.44.21 - Done, overwrittten F:\gambar2.jpg, current total5
+4.44.21 - F:\gambar6.jpg verification result : True
+4.44.21 - Done, overwrittten F:\gambar6.jpg, current total6
+4.44.21 - F:\gambar7.jpg verification result : True
+4.44.21 - Done, overwrittten F:\gambar7.jpg, current total7
+4.44.21 - F:\gambar10.jpg verification result : True
+4.44.21 - Done, overwrittten F:\gambar10.jpg, current total8
+4.44.21 - F:\gambar5.jpg verification result : True
+4.44.21 - Done, overwrittten F:\gambar5.jpg, current total9
+4.44.21 - F:\gambar8.jpg verification result : True
+4.44.21 - Done, overwrittten F:\gambar8.jpg, current total10
+4.44.21 - F:\gambar3.jpg verification result : True
+4.44.21 - Done, overwrittten F:\gambar3.jpg, current total11
+4.44.21 - Begin removing file...
+4.44.21 - Removing F:\kegkmlcd.y3w
+4.44.21 - Removing F:\yfxcq0wt.duj
+4.44.21 - Removing F:\jvbqpi21.tx0
+4.44.21 - Removing F:\yy1p1c3q.ltm
+4.44.21 - Removing F:\twjutzaq.wxu
+4.44.21 - Removing F:\5bkv4zwv.fit
+4.44.21 - Removing F:\rocyjjbm.jl0
+4.44.21 - Removing F:\nl3vqmjd.125
+4.44.21 - Removing F:\zapppaeo.azd
+4.44.21 - Removing F:\vgr5rfzc.5ks
+4.44.21 - Removing F:\ywpoaanm.u13
+4.44.21 - creating F:\junk_file_0
+4.44.21 - Sync Phase 2 ...
+4.44.22 - Starting to remove files, current free space is 0
+4.44.22 - Begin remove shrink file...
+4.44.22 - removing junkfile F:\temp_file_0
+4.44.22 - removing junkfile F:\junk_file_0
+4.44.22 - Elapsed time is : 6343 ms

@@ -1,0 +1,17 @@
+8.00.13 - Begin checking validity...
+8.00.13 - Done, everything is valid.
+8.00.32 - creating F:\temp_file_0
+8.00.32 - Sync Phase 1 ...
+8.00.33 - Processing F:\30MB
+8.00.36 - Renaming F:\30MB -> F:\0defhjvx.bdv
+8.00.37 - F:\30MB verification result : True
+8.00.37 - Done, overwrittten F:\30MB, current total1
+8.00.37 - Begin removing file...
+8.00.37 - Removing F:\0defhjvx.bdv
+8.00.37 - creating F:\junk_file_0
+8.00.37 - Sync Phase 2 ...
+8.00.37 - Starting to remove files, current free space is 0
+8.00.37 - Begin remove shrink file...
+8.00.37 - removing junkfile F:\temp_file_0
+8.00.37 - removing junkfile F:\junk_file_0
+8.00.37 - Elapsed time is : 5032 ms

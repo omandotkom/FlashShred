@@ -1,0 +1,17 @@
+9.34.41 - Begin checking validity...
+9.34.41 - Done, everything is valid.
+9.35.53 - creating F:\temp_file_0
+9.35.53 - Sync Phase 1 ...
+9.35.53 - Processing F:\70MB
+9.36.00 - Renaming F:\70MB -> F:\po4i5kdu.g45
+9.36.02 - F:\70MB verification result : True
+9.36.02 - Done, overwrittten F:\70MB, current total1
+9.36.02 - Begin removing file...
+9.36.02 - Removing F:\po4i5kdu.g45
+9.36.02 - creating F:\junk_file_0
+9.36.02 - Sync Phase 2 ...
+9.36.02 - Starting to remove files, current free space is 0
+9.36.02 - Begin remove shrink file...
+9.36.02 - removing junkfile F:\temp_file_0
+9.36.02 - removing junkfile F:\junk_file_0
+9.36.02 - Elapsed time is : 9244 ms
