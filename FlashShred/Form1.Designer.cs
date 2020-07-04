@@ -44,10 +44,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(151, 443);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Location = new System.Drawing.Point(113, 360);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 28);
+            this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
             this.button1.Text = "Select File(s)";
             this.button1.UseVisualStyleBackColor = true;
@@ -56,19 +55,16 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(22, 46);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.listBox1.Location = new System.Drawing.Point(16, 37);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(857, 388);
+            this.listBox1.Size = new System.Drawing.Size(644, 316);
             this.listBox1.TabIndex = 1;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(752, 442);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Location = new System.Drawing.Point(564, 359);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(127, 28);
+            this.button2.Size = new System.Drawing.Size(95, 23);
             this.button2.TabIndex = 2;
             this.button2.Text = "Shred All File(s)";
             this.button2.UseVisualStyleBackColor = true;
@@ -76,27 +72,29 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(22, 443);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
+            this.button3.Location = new System.Drawing.Point(16, 360);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(121, 28);
+            this.button3.Size = new System.Drawing.Size(91, 23);
             this.button3.TabIndex = 3;
             this.button3.Text = "Select Directory";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(18, 478);
+            this.progressBar1.Location = new System.Drawing.Point(14, 388);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(861, 23);
+            this.progressBar1.Size = new System.Drawing.Size(646, 19);
             this.progressBar1.TabIndex = 4;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(15, 504);
+            this.label1.Location = new System.Drawing.Point(11, 410);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 17);
+            this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 5;
             // 
             // menuStrip1
@@ -107,7 +105,8 @@
             this.sectorCleanerToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(892, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(669, 24);
             this.menuStrip1.TabIndex = 6;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -117,33 +116,33 @@
             this.logToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.applicationToolStripMenuItem.Name = "applicationToolStripMenuItem";
-            this.applicationToolStripMenuItem.Size = new System.Drawing.Size(100, 24);
+            this.applicationToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
             this.applicationToolStripMenuItem.Text = "Application";
             // 
             // logToolStripMenuItem
             // 
             this.logToolStripMenuItem.Name = "logToolStripMenuItem";
-            this.logToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.logToolStripMenuItem.Size = new System.Drawing.Size(94, 22);
             this.logToolStripMenuItem.Text = "Log";
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(94, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             // 
             // sectorCleanerToolStripMenuItem
             // 
             this.sectorCleanerToolStripMenuItem.Name = "sectorCleanerToolStripMenuItem";
-            this.sectorCleanerToolStripMenuItem.Size = new System.Drawing.Size(115, 24);
+            this.sectorCleanerToolStripMenuItem.Size = new System.Drawing.Size(92, 20);
             this.sectorCleanerToolStripMenuItem.Text = "SectorCleaner";
             this.sectorCleanerToolStripMenuItem.Click += new System.EventHandler(this.sectorCleanerToolStripMenuItem_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(892, 554);
+            this.ClientSize = new System.Drawing.Size(669, 450);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.button3);
@@ -153,7 +152,6 @@
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "FlashShred";
             this.Load += new System.EventHandler(this.Form1_Load);

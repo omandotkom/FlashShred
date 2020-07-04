@@ -134,5 +134,23 @@ namespace FlashShred
             label1.Invoke(new Action(() => label1.Text = letter));
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            using (var fbd = new FolderBrowserDialog())
+            {
+                DialogResult result = fbd.ShowDialog();
+
+                if (result == DialogResult.OK && !string.IsNullOrWhiteSpace(fbd.SelectedPath))
+                {
+                    //string[] files = System.IO.Directory.GetFiles(fbd.SelectedPath);
+                    listBox1.Items.Clear();
+                   foreach(String filePath in System.IO.Directory.GetFiles(fbd.SelectedPath)){
+                        listBox1.Items.Add(filePath);
+                    }
+
+                }
+            }
+        }
     }
 }
