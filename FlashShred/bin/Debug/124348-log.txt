@@ -1,0 +1,17 @@
+12.43.41 - Begin checking validity...
+12.43.41 - Done, everything is valid.
+12.43.43 - creating F:\temp_file_0
+12.43.43 - Sync Phase 1 ...
+12.43.43 - Processing F:\70MB
+12.43.48 - Renaming F:\70MB -> F:\dpl21npg.5ms
+12.43.48 - F:\70MB verification result : True
+12.43.48 - Done, overwrittten F:\70MB, current total1
+12.43.48 - Begin removing file...
+12.43.48 - Removing F:\dpl21npg.5ms
+12.43.48 - creating F:\junk_file_0
+12.43.48 - Sync Phase 2 ...
+12.43.48 - Starting to remove files, current free space is 0
+12.43.48 - Begin remove shrink file...
+12.43.48 - removing junkfile F:\temp_file_0
+12.43.48 - removing junkfile F:\junk_file_0
+12.43.48 - Elapsed time is : 5668 ms

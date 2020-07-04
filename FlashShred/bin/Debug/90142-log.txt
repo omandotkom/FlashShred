@@ -1,0 +1,61 @@
+9.01.30 - Begin checking validity...
+9.01.30 - Done, everything is valid.
+9.01.32 - creating G:\temp_file_0
+9.01.32 - Sync Phase 1 ...
+9.01.32 - Processing G:\contohfile.txt
+9.01.32 - Renaming G:\contohfile.txt -> G:\eigpg5ib.wh5
+9.01.33 - Processing G:\gambar7.jpg
+9.01.33 - Processing G:\gambar5.jpg
+9.01.33 - Processing G:\gambar3.jpg
+9.01.33 - G:\contohfile.txt verification result : True
+9.01.33 - Done, overwrittten G:\contohfile.txt, current total1
+9.01.33 - Processing G:\gambar8.jpg
+9.01.34 - Processing G:\gambar9.jpg
+9.01.35 - Processing G:\gambar10.jpg
+9.01.40 - Renaming G:\gambar6.jpg -> G:\lpo1xky1.evs
+9.01.40 - Renaming G:\gambar7.jpg -> G:\nzoasbsw.0qj
+9.01.40 - Renaming G:\gambar8.jpg -> G:\saywbkf1.4x3
+9.01.41 - Renaming G:\gambar3.jpg -> G:\4wwyxsas.fqt
+9.01.41 - Renaming G:\gambar10.jpg -> G:\1gfs3l5n.ixt
+9.01.41 - Renaming G:\gambar1.jpg -> G:\gdnvuphz.sxa
+9.01.41 - Renaming G:\gambar5.jpg -> G:\pjibrua0.jrs
+9.01.41 - Renaming G:\gambar4.jpg -> G:\0bdzmax0.d2c
+9.01.41 - G:\gambar7.jpg verification result : True
+9.01.41 - G:\gambar8.jpg verification result : True
+9.01.41 - G:\gambar6.jpg verification result : True
+9.01.41 - Done, overwrittten G:\gambar7.jpg, current total2
+9.01.41 - Done, overwrittten G:\gambar8.jpg, current total3
+9.01.41 - Done, overwrittten G:\gambar6.jpg, current total4
+9.01.41 - G:\gambar3.jpg verification result : True
+9.01.41 - Done, overwrittten G:\gambar3.jpg, current total5
+9.01.41 - G:\gambar5.jpg verification result : True
+9.01.41 - Done, overwrittten G:\gambar5.jpg, current total6
+9.01.41 - G:\gambar4.jpg verification result : True
+9.01.41 - Done, overwrittten G:\gambar4.jpg, current total7
+9.01.41 - G:\gambar9.jpg verification result : True
+9.01.41 - Done, overwrittten G:\gambar9.jpg, current total8
+9.01.41 - G:\gambar10.jpg verification result : True
+9.01.41 - Done, overwrittten G:\gambar10.jpg, current total9
+9.01.41 - G:\gambar2.jpg verification result : True
+9.01.41 - Done, overwrittten G:\gambar2.jpg, current total10
+9.01.41 - G:\gambar1.jpg verification result : True
+9.01.41 - Done, overwrittten G:\gambar1.jpg, current total11
+9.01.41 - Begin removing file...
+9.01.41 - Removing G:\eigpg5ib.wh5
+9.01.41 - Removing G:\lpo1xky1.evs
+9.01.41 - Removing G:\saywbkf1.4x3
+9.01.41 - Removing G:\nzoasbsw.0qj
+9.01.41 - Removing G:\4wwyxsas.fqt
+9.01.42 - Removing G:\pjibrua0.jrs
+9.01.42 - Removing G:\gdnvuphz.sxa
+9.01.42 - Removing G:\1gfs3l5n.ixt
+9.01.42 - Removing G:\y2z3ml0y.y5f
+9.01.42 - Removing G:\0bdzmax0.d2c
+9.01.42 - Removing G:\2yhx0c0x.qq2
+9.01.42 - creating G:\junk_file_0
+9.01.42 - Sync Phase 2 ...
+9.01.42 - Starting to remove files, current free space is 0
+9.01.42 - Begin remove shrink file...
+9.01.42 - removing junkfile G:\temp_file_0
+9.01.42 - removing junkfile G:\junk_file_0
+9.01.42 - Elapsed time is : 9999 ms

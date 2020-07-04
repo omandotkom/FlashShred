@@ -1,0 +1,65 @@
+9.09.07 - Begin checking validity...
+9.09.07 - Done, everything is valid.
+9.09.08 - creating G:\temp_file_0
+9.09.08 - Sync Phase 1 ...
+9.09.08 - Processing G:\contohfile.txt
+9.09.08 - Renaming G:\contohfile.txt -> G:\g1grh4gv.1at
+9.09.09 - Processing G:\gambar7.jpg
+9.09.09 - Processing G:\gambar4.jpg
+9.09.09 - Processing G:\gambar6.jpg
+9.09.09 - Processing G:\gambar3.jpg
+9.09.09 - Processing G:\gambar2.jpg
+9.09.09 - G:\contohfile.txt verification result : True
+9.09.09 - Done, overwrittten G:\contohfile.txt, current total1
+9.09.09 - Processing G:\gambar8.jpg
+9.09.09 - Processing G:\gambar9.jpg
+9.09.10 - Processing G:\gambar10.jpg
+9.09.30 - Renaming G:\gambar7.jpg -> G:\u2134pm1.ll5
+9.09.30 - Renaming G:\gambar8.jpg -> G:\2rlpfvni.tur
+9.09.30 - Renaming G:\gambar4.jpg -> G:\gn1epwtz.out
+9.09.30 - Renaming G:\gambar3.jpg -> G:\nfbthzae.452
+9.09.30 - Renaming G:\gambar2.jpg -> G:\rxjga0jc.lyd
+9.09.30 - Renaming G:\gambar5.jpg -> G:\pwqjiaf5.ljk
+9.09.30 - Renaming G:\gambar6.jpg -> G:\dkgttp3l.k31
+9.09.30 - Renaming G:\gambar9.jpg -> G:\akqc2ivs.hix
+9.09.30 - Renaming G:\gambar1.jpg -> G:\nervm33i.4xl
+9.09.30 - Renaming G:\gambar10.jpg -> G:\dztwp3qm.sut
+9.09.30 - G:\gambar8.jpg verification result : True
+9.09.30 - Done, overwrittten G:\gambar8.jpg, current total2
+9.09.30 - G:\gambar7.jpg verification result : True
+9.09.30 - Done, overwrittten G:\gambar7.jpg, current total3
+9.09.30 - G:\gambar4.jpg verification result : True
+9.09.30 - Done, overwrittten G:\gambar4.jpg, current total4
+9.09.30 - G:\gambar5.jpg verification result : True
+9.09.30 - Done, overwrittten G:\gambar5.jpg, current total5
+9.09.30 - G:\gambar9.jpg verification result : True
+9.09.30 - Done, overwrittten G:\gambar9.jpg, current total6
+9.09.30 - G:\gambar3.jpg verification result : True
+9.09.30 - G:\gambar10.jpg verification result : True
+9.09.30 - Done, overwrittten G:\gambar3.jpg, current total7
+9.09.30 - Done, overwrittten G:\gambar10.jpg, current total8
+9.09.30 - G:\gambar1.jpg verification result : True
+9.09.30 - Done, overwrittten G:\gambar1.jpg, current total9
+9.09.30 - G:\gambar2.jpg verification result : True
+9.09.30 - Done, overwrittten G:\gambar2.jpg, current total10
+9.09.30 - G:\gambar6.jpg verification result : True
+9.09.30 - Done, overwrittten G:\gambar6.jpg, current total11
+9.09.30 - Begin removing file...
+9.09.30 - Removing G:\g1grh4gv.1at
+9.09.30 - Removing G:\u2134pm1.ll5
+9.09.30 - Removing G:\2rlpfvni.tur
+9.09.30 - Removing G:\gn1epwtz.out
+9.09.30 - Removing G:\nervm33i.4xl
+9.09.30 - Removing G:\dkgttp3l.k31
+9.09.30 - Removing G:\nfbthzae.452
+9.09.30 - Removing G:\akqc2ivs.hix
+9.09.30 - Removing G:\pwqjiaf5.ljk
+9.09.30 - Removing G:\dztwp3qm.sut
+9.09.30 - Removing G:\rxjga0jc.lyd
+9.09.30 - creating G:\junk_file_0
+9.09.30 - Sync Phase 2 ...
+9.09.30 - Starting to remove files, current free space is 0
+9.09.30 - Begin remove shrink file...
+9.09.30 - removing junkfile G:\temp_file_0
+9.09.30 - removing junkfile G:\junk_file_0
+9.09.30 - Elapsed time is : 22695 ms

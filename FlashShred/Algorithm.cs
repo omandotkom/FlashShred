@@ -162,8 +162,8 @@ namespace FlashShred
             return 1;
         }
         private void OverwriteFile(string filex){
-
-            byte[] oldFileBytes = File.ReadAllBytes(filex);
+            string originalFilehash = new Verifier().GetChecksum2(filex);
+            //byte[] oldFileBytes = File.ReadAllBytes(filex);
             //FileInfo file = new FileInfo(filex);
             //FileInfo file = new FileInfo(filex);
             Util.write("Processing " + filex);
@@ -183,7 +183,7 @@ namespace FlashShred
                 RNGCryptoServiceProvider rng = new RNGCryptoServiceProvider();
                 rng.GetBytes(buffer);
                 
-                for (var length = oldFileBytes.Length; length > 0; length -= MAX_BUFFER_SIZE)
+                for (var length = new FileInfo(filex).Length; length > 0; length -= MAX_BUFFER_SIZE)
                 {
                     int bytesToWrite = (length > MAX_BUFFER_SIZE) ? MAX_BUFFER_SIZE : (int)length;
 
@@ -204,8 +204,10 @@ namespace FlashShred
             newFiles.Add(newPath);
             //File.Delete(newPath);
             //_onOverwritten(nm);
-            byte[] newFileBytes = File.ReadAllBytes(newPath);
-            Util.write(filex + " verification result : " + new Verifier(oldFileBytes, newFileBytes).VerifyHash());
+            //byte[] newFileBytes = File.ReadAllBytes(newPath);
+            //Util.write(filex + " verification result : " + new Verifier(oldFileBytes, newFileBytes).VerifyHash());
+            Util.write(filex + " verification result : " + new Verifier().VerifyHash2(originalFilehash,newPath));
+
             onPerformStepEvent.Invoke("Selesai Shred file " + filex);
             onOverwrittenEvent.Invoke(filex);
         }

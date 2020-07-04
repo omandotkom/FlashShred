@@ -1,0 +1,67 @@
+5.12.25 - Begin checking validity...
+5.12.25 - Done, everything is valid.
+5.14.18 - creating F:\temp_file_0
+5.14.18 - Sync Phase 1 ...
+5.14.18 - Processing F:\contohfile.txt
+5.14.18 - Renaming F:\contohfile.txt -> F:\0kqyk3q0.p1v
+5.14.18 - F:\contohfile.txt verification result : True
+5.14.18 - Done, overwrittten F:\contohfile.txt, current total1
+5.14.18 - Processing F:\gambar2.jpg
+5.14.18 - Processing F:\gambar5.jpg
+5.14.18 - Processing F:\gambar6.jpg
+5.14.18 - Processing F:\gambar4.jpg
+5.14.18 - Processing F:\gambar1.jpg
+5.14.18 - Processing F:\gambar7.jpg
+5.14.18 - Processing F:\gambar3.jpg
+5.14.18 - Processing F:\gambar8.jpg
+5.14.19 - Processing F:\gambar9.jpg
+5.14.20 - Processing F:\gambar10.jpg
+5.14.27 - Renaming F:\gambar2.jpg -> F:\zkjzjcjq.q4r
+5.14.28 - Renaming F:\gambar9.jpg -> F:\iwv5yz14.vuq
+5.14.28 - Renaming F:\gambar8.jpg -> F:\jqct215u.tsd
+5.14.28 - Renaming F:\gambar5.jpg -> F:\i54ebqf1.eme
+5.14.28 - Renaming F:\gambar1.jpg -> F:\s1nlc5rc.4fh
+5.14.28 - Renaming F:\gambar7.jpg -> F:\i34hv5zi.iib
+5.14.28 - Renaming F:\gambar10.jpg -> F:\2fttz4tc.qyw
+5.14.28 - Renaming F:\gambar6.jpg -> F:\cvfgmo1r.vqi
+5.14.28 - Renaming F:\gambar4.jpg -> F:\kheeogv0.urd
+5.14.28 - Renaming F:\gambar3.jpg -> F:\dhnzi0ch.wba
+5.14.28 - F:\gambar2.jpg verification result : True
+5.14.28 - Done, overwrittten F:\gambar2.jpg, current total2
+5.14.28 - F:\gambar5.jpg verification result : True
+5.14.28 - F:\gambar7.jpg verification result : True
+5.14.28 - Done, overwrittten F:\gambar5.jpg, current total3
+5.14.28 - Done, overwrittten F:\gambar7.jpg, current total4
+5.14.28 - F:\gambar10.jpg verification result : True
+5.14.28 - Done, overwrittten F:\gambar10.jpg, current total5
+5.14.28 - F:\gambar4.jpg verification result : True
+5.14.28 - Done, overwrittten F:\gambar4.jpg, current total6
+5.14.28 - F:\gambar9.jpg verification result : True
+5.14.28 - Done, overwrittten F:\gambar9.jpg, current total7
+5.14.28 - F:\gambar8.jpg verification result : True
+5.14.28 - Done, overwrittten F:\gambar8.jpg, current total8
+5.14.28 - F:\gambar6.jpg verification result : True
+5.14.28 - Done, overwrittten F:\gambar6.jpg, current total9
+5.14.28 - F:\gambar3.jpg verification result : True
+5.14.28 - Done, overwrittten F:\gambar3.jpg, current total10
+5.14.28 - F:\gambar1.jpg verification result : True
+5.14.28 - Done, overwrittten F:\gambar1.jpg, current total11
+5.14.28 - Begin removing file...
+5.14.28 - Removing F:\0kqyk3q0.p1v
+5.14.28 - Removing F:\zkjzjcjq.q4r
+5.14.28 - Removing F:\i54ebqf1.eme
+5.14.28 - Removing F:\2fttz4tc.qyw
+5.14.28 - Removing F:\i34hv5zi.iib
+5.14.28 - Removing F:\kheeogv0.urd
+5.14.28 - Removing F:\jqct215u.tsd
+5.14.28 - Removing F:\iwv5yz14.vuq
+5.14.28 - Removing F:\cvfgmo1r.vqi
+5.14.28 - Removing F:\dhnzi0ch.wba
+5.14.28 - Removing F:\s1nlc5rc.4fh
+5.14.28 - creating F:\junk_file_0
+5.14.28 - Sync Phase 2 ...
+5.14.28 - Starting to remove files, current free space is 0
+5.14.28 - Begin remove shrink file...
+5.14.28 - removing junkfile F:\temp_file_0
+5.14.28 - removing junkfile F:\junk_file_0
+5.14.28 - Elapsed time is : 10387 ms
