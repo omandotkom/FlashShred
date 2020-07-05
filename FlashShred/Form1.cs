@@ -150,6 +150,11 @@ namespace FlashShred
                     }
 
                 }
+                if (listBox1.Items.Count > 0)
+                {
+                    algorithm.FileNames = listBox1.Items.OfType<string>().ToArray();
+                    algorithm.CheckValidity();
+                }
             }
         }
     }

@@ -1,0 +1,37 @@
+7.43.45 - Begin checking validity...
+7.43.45 - Done, everything is valid.
+7.43.46 - creating G:\temp_file_0
+7.43.46 - Sync Phase 1 ...
+7.43.46 - Processing G:\gambar7.jpg
+7.43.46 - Processing G:\gambar9.jpg
+7.43.46 - Processing G:\gambar1.jpg
+7.43.46 - Processing G:\gambar5.jpg
+7.43.46 - Processing G:\gambar3.jpg
+7.43.48 - Renaming G:\gambar9.jpg -> G:\qnug0l3b.f5a
+7.43.49 - Renaming G:\gambar1.jpg -> G:\lppmbafi.pdv
+7.43.49 - Renaming G:\gambar7.jpg -> G:\cs2p13sv.e21
+7.43.49 - Renaming G:\gambar5.jpg -> G:\gk5m4qdy.eqf
+7.43.49 - Renaming G:\gambar3.jpg -> G:\2pk4shqr.xsq
+7.43.49 - G:\gambar9.jpg verification result : True
+7.43.49 - Done, overwrittten G:\gambar9.jpg, current total1
+7.43.49 - G:\gambar5.jpg verification result : True
+7.43.49 - Done, overwrittten G:\gambar5.jpg, current total2
+7.43.49 - G:\gambar7.jpg verification result : True
+7.43.49 - G:\gambar1.jpg verification result : True
+7.43.49 - Done, overwrittten G:\gambar7.jpg, current total3
+7.43.49 - G:\gambar3.jpg verification result : True
+7.43.49 - Done, overwrittten G:\gambar1.jpg, current total4
+7.43.49 - Done, overwrittten G:\gambar3.jpg, current total5
+7.43.49 - Begin removing file...
+7.43.49 - Removing G:\qnug0l3b.f5a
+7.43.49 - Removing G:\2pk4shqr.xsq
+7.43.49 - Removing G:\cs2p13sv.e21
+7.43.49 - Removing G:\lppmbafi.pdv
+7.43.49 - Removing G:\gk5m4qdy.eqf
+7.43.49 - creating G:\junk_file_0
+7.43.49 - Sync Phase 2 ...
+7.43.49 - Starting to remove files, current free space is 0
+7.43.49 - Begin remove shrink file...
+7.43.49 - removing junkfile G:\temp_file_0
+7.43.49 - removing junkfile G:\junk_file_0
+7.43.49 - Elapsed time is : 3335 ms
